@@ -1,57 +1,70 @@
 # Script Store Operations Analysis
 
-Excel analysis of fictional scripted mystery game operations: session activity, modeled contribution, and acquisition-cost recovery.
+An Excel portfolio case study of synthetic scripted mystery game operations, estimated contribution, and acquisition-cost recovery.
 
-**All published figures are synthetic. They do not describe a real store or demonstrate actual business impact.**
+**All published records are fictional. This project does not demonstrate actual store growth or realized financial impact.**
 
-## Start here
+![Synthetic operations dashboard](assets/dashboard.png)
 
-![Reported synthetic metrics](assets/metrics-preview.png)
+## Open and inspect
 
-1. Read the [findings and decision limits](docs/findings.md).
-2. Review the [metric definitions](docs/methodology.md) and [data dictionary](docs/data-dictionary.md).
-3. Check the [validation record](docs/validation.md) before interpreting the historical dashboard.
-4. Open the [existing Dashboard PDF](Script_Store_Operations_Dashboard_Synthetic.pdf).
+- [Download the Excel workbook](workbook/Script_Store_Operations_Synthetic.xlsx) to inspect formulas, five native PivotTables, three charts, and reconciliation checks.
+- [View the Dashboard PDF](Script_Store_Operations_Dashboard_Synthetic.pdf) for a static overview.
+- Read [findings](docs/findings.md), [metric definitions](docs/methodology.md), [data dictionary](docs/data-dictionary.md), and [validation results](docs/validation.md).
 
-**Current evidence limits:** the Excel source workbook is not included. Its formulas, PivotTables, refresh behavior, and row-level totals have not been independently verified. The existing PDF has a monthly-volume inconsistency and a visibly malformed performance matrix; see the validation record. The preview above intentionally includes only legible reported metrics, not those disputed charts.
+## Business question
 
-## Business problem
+Which scripts warrant scheduling, promotion, or further demand testing when acquisition costs are uncertain? The analysis distinguishes popularity, contribution per session, and acquisition-cost recovery.
 
-A store needs to decide which scripts warrant scheduling, promotion, or further demand testing, while accounting for uncertain acquisition costs. This project separates session volume, contribution per session, and acquisition-cost recovery rather than treating popularity as profitability.
+## Verified synthetic scope
 
-## Published scope
+| Measure | Value |
+| --- | ---: |
+| Fictional scripts | 160 |
+| Sessions | 416 |
+| Opened scripts | 136 |
+| Reporting period | September 1, 2025–October 8, 2026 |
+| Estimated revenue | $280,352 |
+| Standard DM wages | $84,912 |
+| Estimated contribution | $195,440 |
 
-The existing project description reports 160 fictional scripts and 416 fictional sessions from September 2025 through October 8, 2026. The PDF reports 136 scripts opened. These are published summary figures, not independently reconciled record counts.
+These totals were independently recomputed from the supplied synthetic session rows. Contribution is estimated revenue less total standard DM wage, not net profit.
 
-| PDF-reported measure | Value | Interpretation |
-| --- | ---: | --- |
-| Sessions | 416 | Reported session total |
-| Estimated gross revenue | $280,352 | Modeled revenue, not cash received |
-| Estimated contribution | $195,440 | Revenue less modeled standard DM wages |
-| Scripts opened | 136 | Reported distinct scripts with sessions |
+## Findings
 
-## Analysis approach
+- Full-month session counts range from 29 to 32; seven months tie at 32. The generated data do not show sustained growth.
+- City-limited scripts average $505.50 contribution per session (144 sessions), exclusive $527.86 (56), and boxed $430.96 (216). These modeled differences do not establish causation or justify purchases alone.
+- October contains eight sessions through October 8 and is excluded from full-month comparisons.
+- The performance matrix contains 136 opened scripts. Median cutoffs are two observed sessions and $490 contribution per session, calculated over opened scripts.
 
-The intended Excel workflow links session records to script attributes, calculates modeled revenue and wages, aggregates session activity and contribution, and evaluates low/base/high acquisition-cost scenarios. The documentation explains the required grain, aggregation, and missing-data behavior. Source-workbook implementation remains to be checked.
+## Excel workflow
 
-The project focuses on Excel Tables, lookups, conditional aggregation, PivotTables, visual reporting, and scenario reasoning. SQL, causal inference, and realized business improvements are not demonstrated by the published artifacts.
+1. `Start Here` explains navigation and limitations.
+2. `Raw Data` stores one synthetic session per row; `Script_List` stores one fictional script per row.
+3. Revenue, wage lookups, contribution, script counts, scenario surpluses, and segments use formulas.
+4. `Assumptions` exposes the acquisition-cost conversion rate (7.2 RMB/USD), reporting dates, and median cutoffs.
+5. `Pivot_Analysis` contains five rebuilt native PivotTables using exclusively synthetic caches: monthly activity, type economics, edition economics, recovery, and strategy segments.
+6. `Checks` reconciles counts, keys, totals, and script/session aggregates.
+7. `Dashboard` shows formula-linked summaries and three charts.
 
-## Repository guide
+## Updating the workbook
 
-| File | What a reviewer can inspect |
-| --- | --- |
-| `docs/data-dictionary.md` | Proposed field contract and record grain |
-| `docs/methodology.md` | Metric definitions, assumptions, aggregation rules |
-| `docs/findings.md` | Numerical observations and conditional decisions |
-| `docs/validation.md` | Checks actually performed and unresolved issues |
-| `docs/workbook-handoff.md` | Requirements for adding the synthetic Excel workbook |
-| `assets/metrics-preview.png` | Readable preview of reported synthetic figures |
-| `Script_Store_Operations_Dashboard_Synthetic.pdf` | Historical dashboard, with known issues |
+Open in Excel with calculation enabled. After input changes, use Data > Refresh All for native PivotTables. Dashboard helper formulas recalculate separately. The top-20 list and scatter membership are snapshot selections; adding sessions to previously unopened scripts or new scripts requires updating those helper ranges. See [workbook usage](docs/workbook-handoff.md).
 
-## Limitations
+## What this case demonstrates
 
-Revenue may differ from cash receipts because membership discounts and transaction adjustments are not modeled. Contribution excludes rent, utilities, taxes, and other operating costs. Acquisition costs are scenario assumptions. October is incomplete. Edition comparisons are observational within synthetic data; they do not prove an edition causes better economics. No source business records are required for this public demonstration.
+Excel Tables, lookup and conditional aggregation formulas, explicit data grain, reconciliation, contribution modeling, acquisition-cost scenarios, and cautious interpretation of business metrics. SQL, causal attribution, statistically significant edition differences, and independently achieved commercial results are not demonstrated.
 
-## Reproduce and inspect
+## Validation and corrections
 
-The preview can be rebuilt with `python scripts/build_preview.py` after installing Matplotlib. This reproduces the presentation of PDF-reported figures only. Reproducing the underlying analysis requires the Excel workbook described in the handoff document.
+The submitted workbook contained stale pre-synthetic PivotTable caches and displayed summaries. The public copy was rebuilt from verified synthetic rows rather than publishing those caches. The obsolete 66-session peak and malformed scatter matrix were corrected. The acquisition assumption was aligned with the synthetic costs at 7.2 RMB/USD.
+
+Independent controls and spreadsheet-engine recalculation passed. Native Excel opening, PivotTable refresh, and chart rendering have not been exercised in desktop Excel; this remains a manual check rather than a claimed pass.
+
+## Rebuild the static preview
+
+Install `openpyxl` and `matplotlib`, then run `python scripts/build_preview.py`. It reads the published workbook's cached values and exports the PNG and PDF. Recalculate and save the workbook in Excel first if inputs change. The static preview is a presentation of the same calculations, not a screenshot of Excel.
+
+## Limits
+
+Modeled revenue omits actual discounts and transaction adjustments. Standard DM wage is a supplied total session input. Acquisition costs are assumptions; contribution excludes rent, utilities, taxes, and other operating expenses. Session duration and capacity are unavailable. Synthetic outcomes support method demonstration only.

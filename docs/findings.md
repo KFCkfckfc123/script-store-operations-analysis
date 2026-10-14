@@ -1,38 +1,31 @@
 # Findings and decision limits
 
-All observations below use the existing synthetic PDF's displayed figures. They are not reconciled to session records and do not describe real business results.
+All results describe supplied fictional records and were independently recomputed from the synthetic session table.
 
-## Reported operating summary
+## Operating summary
 
-The PDF displays 416 sessions, $280,352 estimated revenue, $195,440 estimated contribution, and 136 scripts opened. Derived from those displayed totals:
+416 sessions generated $280,352 modeled revenue, $84,912 standard DM wages, and $195,440 estimated contribution. 136 of 160 scripts opened (85%). Estimated revenue per session is $673.92; contribution per session is $469.81. Contribution/revenue is 69.71%, not net profit margin.
 
-- Estimated revenue per session: $673.92.
-- Estimated contribution per session: $469.81.
-- Implied standard DM wage total: $84,912, assuming the stated revenue-minus-wage definition.
-- Contribution / estimated revenue: 69.71%. This is a modeled ratio, not a net profit margin.
+## Monthly activity
 
-Use these as reconciliation targets when the workbook is supplied, not as evidence that formulas are already correct.
+Complete months contain 29–32 sessions. October 2025, December 2025, January 2026, March 2026, May 2026, July 2026, and August 2026 tie at 32. October 2026 contains eight sessions through October 8. There is no supported upward-growth story in these generated records. The earlier 66-session August claim came from stale summaries and was removed.
 
-## Edition comparison
+## Edition economics
 
-| Edition | PDF-reported contribution / session | Difference from boxed |
-| --- | ---: | ---: |
-| City-limited | $506 | +$75 / +17.4% |
-| Exclusive | $528 | +$97 / +22.5% |
-| Boxed | $431 | Reference |
+| Edition | Sessions | Contribution per session | Difference from boxed |
+| --- | ---: | ---: | ---: |
+| City-limited | 144 | $505.50 | +$74.54 / +17.3% |
+| Exclusive | 56 | $527.86 | +$96.89 / +22.5% |
+| Boxed | 216 | $430.96 | Reference |
 
-Exclusive exceeds city-limited by $22 per session, about 4.3%. Figures are rounded in the PDF. Group session counts and dispersion are unavailable, so statistical significance and robustness cannot be assessed.
+**Conditional action:** investigate demand and acquisition recovery for individual high-contribution scripts before scheduling trials. Do not purchase by edition ranking alone.
 
-**Conditional action:** investigate high-contribution scripts for scheduling trials, then compare observed demand, duration, staffing needs, and acquisition-cost recovery. The edition comparison alone does not justify buying more exclusive scripts.
+**What could reverse the recommendation:** longer sessions, more staffing, high acquisition prices, or weak customer demand could outweigh the modeled per-session advantage. The synthetic data cannot establish real-world causal or statistical advantages.
 
-**What would reverse the recommendation:** higher acquisition costs, substantially longer sessions, weaker demand, or insufficient sample sizes could eliminate the apparent advantage.
+## Script segmentation
 
-## Claims withheld
+136 opened scripts are plotted by observed count and contribution per session. Cutoffs are opened-script medians: two sessions and $490. Ties are classified as high. The matrix highlights candidates for investigation, not an automatic buy/drop policy. Twenty-four unopened scripts have undefined average contribution and are excluded.
 
-- The PDF says August 2026 peaked at 66 sessions, but its plotted series is around 32 and its Y-axis stops at 35. The peak claim is unresolved and must not be reused in resume bullets.
-- The performance matrix does not render a usable distribution of script points. No quadrant membership or script-level prioritization can be concluded.
-- No demonstrated increase in real sales, profit, or cost savings is claimed.
+## Practical decision evidence still needed
 
-## Next decision evidence
-
-Reconcile monthly counts to 416, provide session counts per edition, verify weighted edition averages, and validate recovery under all three acquisition scenarios. Only then create script-specific recommendations. If a scheduling trial is later run, define equal observation windows and track session volume, contribution, and resource use; a before/after change alone does not establish causality.
+Obtain reliable costs, customer demand evidence, discounts, duration, and room/staff capacity before applying the method to actual purchasing. Define a scheduling trial with comparable observation windows and resource-use measures. Before/after improvement alone does not prove the analyst caused it.

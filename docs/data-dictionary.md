@@ -1,6 +1,6 @@
 # Data dictionary
 
-This is the field contract for the public synthetic workbook, based on the previously designed analysis. It is not a verified inventory of an unavailable final workbook. Names may be mapped to the workbook's existing headers when supplied.
+This describes the verified public synthetic workbook. Session table is `Raw Data` (Table `RawData`); script table is `Script_List`. Some explanatory names below map to existing headers, such as `Open Session Count` and `Avg Contribution(Opened Only)`. A text `Report Month` helper supports native monthly PivotTables.
 
 ## Record grain and keys
 
