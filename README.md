@@ -1,73 +1,57 @@
 # Script Store Operations Analysis
 
-An Excel dashboard analyzing synthetic script-store operations, contribution, and estimated cost recovery.
+Excel analysis of fictional scripted mystery game operations: session activity, modeled contribution, and acquisition-cost recovery.
 
-[View the Dashboard PDF](./Script_Store_Operations_Dashboard_Synthetic.pdf)
+**All published figures are synthetic. They do not describe a real store or demonstrate actual business impact.**
 
-## Project Overview
+## Start here
 
-This project demonstrates an Excel-based operating analysis system for a fictional script-murder game store. All displayed records are synthetic and were created for portfolio purposes. No confidential business data is included.
+![Reported synthetic metrics](assets/metrics-preview.png)
 
-## Business Questions
+1. Read the [findings and decision limits](docs/findings.md).
+2. Review the [metric definitions](docs/methodology.md) and [data dictionary](docs/data-dictionary.md).
+3. Check the [validation record](docs/validation.md) before interpreting the historical dashboard.
+4. Open the [existing Dashboard PDF](Script_Store_Operations_Dashboard_Synthetic.pdf).
 
-- How many game sessions were operated each month?
-- Which scripts generated the highest estimated contribution?
-- Which script editions performed best per session?
-- Which scripts recovered their estimated acquisition costs?
-- Which scripts should receive more scheduling or promotional support?
+**Current evidence limits:** the Excel source workbook is not included. Its formulas, PivotTables, refresh behavior, and row-level totals have not been independently verified. The existing PDF has a monthly-volume inconsistency and a visibly malformed performance matrix; see the validation record. The preview above intentionally includes only legible reported metrics, not those disputed charts.
 
-## Tools and Techniques
+## Business problem
 
-- Microsoft Excel
-- Excel Tables
-- XLOOKUP
-- IF and IFERROR
-- COUNTIF and SUMIFS
-- PivotTables and PivotCharts
-- Scenario analysis
-- Dashboard design
-- Data validation and reconciliation checks
+A store needs to decide which scripts warrant scheduling, promotion, or further demand testing, while accounting for uncertain acquisition costs. This project separates session volume, contribution per session, and acquisition-cost recovery rather than treating popularity as profitability.
 
-## Dataset
+## Published scope
 
-The synthetic dataset contains:
+The existing project description reports 160 fictional scripts and 416 fictional sessions from September 2025 through October 8, 2026. The PDF reports 136 scripts opened. These are published summary figures, not independently reconciled record counts.
 
-- 160 fictional scripts
-- 416 fictional game sessions
-- Session dates from September 2025 through October 8, 2026
-- Script type, edition, player count, and price
-- Estimated revenue and standard DM wages
-- Low, base, and high acquisition-cost scenarios
-- Contribution and cost-recovery metrics
+| PDF-reported measure | Value | Interpretation |
+| --- | ---: | --- |
+| Sessions | 416 | Reported session total |
+| Estimated gross revenue | $280,352 | Modeled revenue, not cash received |
+| Estimated contribution | $195,440 | Revenue less modeled standard DM wages |
+| Scripts opened | 136 | Reported distinct scripts with sessions |
 
-## Analysis Workflow
+## Analysis approach
 
-1. Structured script-level and session-level records as Excel Tables.
-2. Connected session records with script attributes using lookup functions.
-3. Estimated gross revenue from player count and price per player.
-4. Calculated contribution after standard DM wages.
-5. Modeled acquisition costs under low, base, and high scenarios.
-6. Created PivotTables for monthly activity and script performance.
-7. Segmented scripts by session frequency and contribution per session.
-8. Built an executive-style Excel dashboard.
+The intended Excel workflow links session records to script attributes, calculates modeled revenue and wages, aggregates session activity and contribution, and evaluates low/base/high acquisition-cost scenarios. The documentation explains the required grain, aggregation, and missing-data behavior. Source-workbook implementation remains to be checked.
 
-## Metric Definitions
+The project focuses on Excel Tables, lookups, conditional aggregation, PivotTables, visual reporting, and scenario reasoning. SQL, causal inference, and realized business improvements are not demonstrated by the published artifacts.
 
-**Estimated Gross Revenue**
+## Repository guide
 
-Players × Price per Player
+| File | What a reviewer can inspect |
+| --- | --- |
+| `docs/data-dictionary.md` | Proposed field contract and record grain |
+| `docs/methodology.md` | Metric definitions, assumptions, aggregation rules |
+| `docs/findings.md` | Numerical observations and conditional decisions |
+| `docs/validation.md` | Checks actually performed and unresolved issues |
+| `docs/workbook-handoff.md` | Requirements for adding the synthetic Excel workbook |
+| `assets/metrics-preview.png` | Readable preview of reported synthetic figures |
+| `Script_Store_Operations_Dashboard_Synthetic.pdf` | Historical dashboard, with known issues |
 
-**Estimated Contribution**
+## Limitations
 
-Estimated Gross Revenue − Standard DM Wage
+Revenue may differ from cash receipts because membership discounts and transaction adjustments are not modeled. Contribution excludes rent, utilities, taxes, and other operating costs. Acquisition costs are scenario assumptions. October is incomplete. Edition comparisons are observational within synthetic data; they do not prove an edition causes better economics. No source business records are required for this public demonstration.
 
-Estimated contribution is not net profit because rent, utilities, taxes, and other operating expenses are unavailable.
+## Reproduce and inspect
 
-## Data Limitations
-
-- All records are synthetic and intended only for portfolio demonstration.
-- Revenue does not include actual membership discounts or transaction adjustments.
-- Acquisition costs are modeled estimates rather than verified purchase prices.
-- Contribution excludes rent, utilities, taxes, and other operating expenses.
-- October 2026 is a partial month.
-- This project demonstrates analytical methodology and does not claim actual business growth caused by the analyst.
+The preview can be rebuilt with `python scripts/build_preview.py` after installing Matplotlib. This reproduces the presentation of PDF-reported figures only. Reproducing the underlying analysis requires the Excel workbook described in the handoff document.
