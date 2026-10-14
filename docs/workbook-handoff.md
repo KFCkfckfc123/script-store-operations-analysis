@@ -1,22 +1,13 @@
-# Workbook usage
+# Compatibility workbook usage
 
-The public workbook is included at `workbook/Script_Store_Operations_Synthetic.xlsx`. It contains only verified fictional records and fresh synthetic pivot caches. The original upload remains unchanged.
+Download `workbook/Script_Store_Operations_Synthetic_Compatible.xlsx`. This replaces the earlier export that showed broken references in the user's screenshot. The original business workbook is unchanged.
 
-## Navigation
+Start Here → Dashboard → Assumptions → Script List / Raw Data → Analysis → Checks.
 
-Start Here → Dashboard → Assumptions → Script_List / Raw Data → Pivot_Analysis → Checks.
+This edition uses bounded cell ranges and standard XlsxWriter output. It retains Excel Tables, formulas, and three charts. Native PivotTables were omitted; Analysis uses ordinary formula summaries. Recreate PivotTables inside Excel from SessionRecords if needed.
 
-Raw Data contains one operated session per row. Script_List contains one fictional script per row. Wage inputs are total session amounts. The source data have no separate individual DM identities.
+Enable automatic calculation. On a disposable copy, changing Raw Data H2 from 75 to 76 should increase estimated revenue and contribution by $6. Baseline controls show a difference after intentional changes; validate a new dataset independently before updating expected controls. Script/session reconciliation should still be zero.
 
-## Changes and refresh
+New records require extending bounded formula and check ranges. Scatter membership, median helpers, and top-20 membership are snapshot selections. Top-20 is a static ranking. Recalculate and save in Excel before rebuilding PNG/PDF from cached values.
 
-1. Work on a disposable copy first.
-2. Change a session's modeled price and confirm revenue, contribution, script totals, and Dashboard totals recalculate.
-3. Use Data > Refresh All to update five native PivotTables.
-4. Inspect Checks. Baseline controls intentionally change if inputs change; update expected controls only after independently validating an intentional new dataset. Script/session reconciliation differences must remain zero.
-5. If adding sessions, extend check-detail ranges. If a previously unopened script opens, update scatter and median-helper membership. New scripts also require extending lookup ranges. Top-20 is a saved snapshot, not a dynamic ranking.
-6. Recalculate and save in Excel before running `scripts/build_preview.py`; the script reads saved cached values.
-
-Native desktop Excel open/refresh/visual behavior has not been tested in this environment. Object presence and source contents were inspected; perform the manual steps above before claiming native refresh is verified.
-
-The PNG/PDF use the same synthetic results but are rendered with Matplotlib, not Excel screenshots. Do not add confidential records to the public repository.
+Formula-engine tests passed, including error scans and input changes. Desktop Excel opening and native chart layout remain to be confirmed by the user. No confidential business records are included.

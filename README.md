@@ -8,7 +8,7 @@ An Excel portfolio case study of synthetic scripted mystery game operations, est
 
 ## Open and inspect
 
-- [Download the Excel workbook](workbook/Script_Store_Operations_Synthetic.xlsx) to inspect formulas, five native PivotTables, three charts, and reconciliation checks.
+- [Download the Excel workbook](workbook/Script_Store_Operations_Synthetic_Compatible.xlsx) to inspect formulas, formula-based summaries, three charts, and reconciliation checks.
 - [View the Dashboard PDF](Script_Store_Operations_Dashboard_Synthetic.pdf) for a static overview.
 - Read [findings](docs/findings.md), [metric definitions](docs/methodology.md), [data dictionary](docs/data-dictionary.md), and [validation results](docs/validation.md).
 
@@ -40,16 +40,16 @@ These totals were independently recomputed from the supplied synthetic session r
 ## Excel workflow
 
 1. `Start Here` explains navigation and limitations.
-2. `Raw Data` stores one synthetic session per row; `Script_List` stores one fictional script per row.
+2. `Raw Data` stores one synthetic session per row; `Script List` stores one fictional script per row.
 3. Revenue, wage lookups, contribution, script counts, scenario surpluses, and segments use formulas.
 4. `Assumptions` exposes the acquisition-cost conversion rate (7.2 RMB/USD), reporting dates, and median cutoffs.
-5. `Pivot_Analysis` contains five rebuilt native PivotTables using exclusively synthetic caches: monthly activity, type economics, edition economics, recovery, and strategy segments.
+5. `Analysis` contains summaries for monthly activity, type economics, edition economics, recovery, and strategy segments. In this compatibility edition, formula summaries replace native PivotTables.
 6. `Checks` reconciles counts, keys, totals, and script/session aggregates.
 7. `Dashboard` shows formula-linked summaries and three charts.
 
 ## Updating the workbook
 
-Open in Excel with calculation enabled. After input changes, use Data > Refresh All for native PivotTables. Dashboard helper formulas recalculate separately. The top-20 list and scatter membership are snapshot selections; adding sessions to previously unopened scripts or new scripts requires updating those helper ranges. See [workbook usage](docs/workbook-handoff.md).
+Open in Excel with automatic calculation enabled. This edition uses bounded worksheet ranges rather than structured references and omits native PivotTables to reduce compatibility risks. Dashboard helper formulas recalculate. The top-20 list and scatter membership are snapshot selections; adding sessions to previously unopened scripts or new scripts requires updating those helper ranges. See [workbook usage](docs/workbook-handoff.md).
 
 ## What this case demonstrates
 
@@ -59,7 +59,7 @@ Excel Tables, lookup and conditional aggregation formulas, explicit data grain, 
 
 The submitted workbook contained stale pre-synthetic PivotTable caches and displayed summaries. The public copy was rebuilt from verified synthetic rows rather than publishing those caches. The obsolete 66-session peak and malformed scatter matrix were corrected. The acquisition assumption was aligned with the synthetic costs at 7.2 RMB/USD.
 
-Independent controls and spreadsheet-engine recalculation passed. Native Excel opening, PivotTable refresh, and chart rendering have not been exercised in desktop Excel; this remains a manual check rather than a claimed pass.
+Independent controls, formula error scans, and input-change tests passed on the compatibility edition. A user screenshot showed broken references and layout in the previous edition. That file was replaced with a standard XlsxWriter export using explicit ranges and no custom pivot XML. Desktop Excel opening and chart rendering still require confirmation.
 
 ## Rebuild the static preview
 

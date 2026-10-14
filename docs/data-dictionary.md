@@ -1,6 +1,6 @@
 # Data dictionary
 
-This describes the verified public synthetic workbook. Session table is `Raw Data` (Table `RawData`); script table is `Script_List`. Some explanatory names below map to existing headers, such as `Open Session Count` and `Avg Contribution(Opened Only)`. A text `Report Month` helper supports native monthly PivotTables.
+This describes the verified public synthetic workbook. Session table is `Raw Data` (Table `SessionRecords`); script table is `Script List`. Some explanatory names below map to existing headers, such as `Open Session Count` and `Avg Contribution(Opened Only)`. A text `Report Month` helper supports monthly summaries. The compatibility edition has no native PivotTables.
 
 ## Record grain and keys
 

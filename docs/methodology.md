@@ -1,6 +1,6 @@
 # Metrics and assumptions
 
-These definitions describe the public workbook. Formula results were checked against independent aggregation; native Excel refresh remains a manual check.
+These definitions describe the public workbook. Formula results were checked against independent aggregation; desktop Excel opening and chart display remain a manual check. The compatibility edition uses formula summaries instead of native PivotTables.
 
 ## Session economics
 

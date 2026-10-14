@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 import openpyxl
 root=Path(__file__).resolve().parents[1]
-w=openpyxl.load_workbook(root/'workbook/Script_Store_Operations_Synthetic.xlsx',data_only=True)
+w=openpyxl.load_workbook(root/'workbook/Script_Store_Operations_Synthetic_Compatible.xlsx',data_only=True)
 raw=[list(r[:14]) for r in list(w['Raw Data'].values)[1:]]
-s=[list(r[:27]) for r in list(w['Script_List'].values)[1:]]
+s=[list(r[:27]) for r in list(w['Script List'].values)[1:]]
 raw=[[v.strftime('%Y-%m-%d') if hasattr(v,'strftime') else v for v in r] for r in raw]
 j={'threshold':w['Assumptions']['B3'].value,'avgthreshold':w['Assumptions']['B4'].value}
 monthly=collections.Counter(r[13][:7] for r in raw);ed=['城限','独家','盒装'];labels=['City-limited','Exclusive','Boxed'];nums=[sum(r[11] for r in raw if r[10]==e)/sum(r[10]==e for r in raw) for e in ed];counts=[sum(r[10]==e for r in raw) for e in ed]
