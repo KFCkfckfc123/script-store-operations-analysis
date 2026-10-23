@@ -10,7 +10,7 @@ Estimated contribution = estimated gross revenue − total standard DM wage for 
 
 This is a limited contribution estimate, not accounting gross profit or net profit. Do not subtract acquisition costs per session and then subtract the same full acquisition again in recovery analysis.
 
-Previously specified wage policy: emotional/performance scripts use a fixed configured wage; inference, mechanism, and comedy scripts use modeled script fees × 0.875 × 0.30. The 0.875 factor is a modeling assumption, not verified evidence of actual discounts. The public workbook retains supplied standard wage inputs rather than inferring an uncovered category rule. Each wage is a total session amount, not a per-DM amount. Raw sessions look up that configured script wage. Tips belong to DMs and are outside modeled store revenue and wages.
+Previously specified wage policy: Emotional scripts use a fixed configured wage; Deduction, Mechanics, and Comedy scripts use modeled script fees × 0.875 × 0.30. The 0.875 factor is a modeling assumption, not verified evidence of actual discounts. The public workbook retains supplied standard wage inputs rather than inferring an uncovered category rule. Each wage is a total session amount, not a per-DM amount. Raw sessions look up that configured script wage. Tips belong to DMs and are outside modeled store revenue and wages.
 
 ## Aggregation
 

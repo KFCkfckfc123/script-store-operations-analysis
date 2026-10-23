@@ -37,6 +37,10 @@ These totals were independently recomputed from the supplied synthetic session r
 - October contains eight sessions through October 8 and is excluded from full-month comparisons.
 - The performance matrix contains 136 opened scripts. Median cutoffs are two observed sessions and $490 contribution per session, calculated over opened scripts.
 
+## English categories
+
+Script types: **Emotional, Deduction, Mechanics, Comedy**. Editions: **City-limited, Exclusive, Boxed**. Definitions are in the [data dictionary](docs/data-dictionary.md).
+
 ## Excel workflow
 
 1. `Start Here` explains navigation and limitations.
@@ -59,11 +63,23 @@ Excel Tables, lookup and conditional aggregation formulas, explicit data grain, 
 
 The submitted workbook contained stale pre-synthetic PivotTable caches and displayed summaries. The public copy was rebuilt from verified synthetic rows rather than publishing those caches. The obsolete 66-session peak and malformed scatter matrix were corrected. The acquisition assumption was aligned with the synthetic costs at 7.2 RMB/USD.
 
-Independent controls, formula error scans, and input-change tests passed on the compatibility edition. A user screenshot showed broken references and layout in the previous edition. That file was replaced with a standard XlsxWriter export using explicit ranges and no custom pivot XML. Desktop Excel opening and chart rendering still require confirmation.
+The 2026-10-23 English release translates categories throughout inputs, summaries and chart caches. All existing numeric cells match the previous release after formula recalculation. Increasing one six-player session price by $1 increases revenue and contribution by $6; restoring the input restores the baseline. The workbook retains seven sheets, two Excel Tables and three native charts. Monthly chart labels now display readable English months.
 
-## Rebuild the static preview
+Independent controls and saved formula-error scans pass. Mac Excel automation was attempted but timed out; native opening, recalculation and chart rendering remain unconfirmed. See [validation results](docs/validation.md) for the exact scope.
 
-Install `openpyxl` and `matplotlib`, then run `python scripts/build_preview.py`. It reads the published workbook's cached values and exports the PNG and PDF. Recalculate and save the workbook in Excel first if inputs change. The static preview is a presentation of the same calculations, not a screenshot of Excel.
+## Reproduce the checks and preview
+
+From the repository root:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python scripts/validate_project.py
+python scripts/build_preview.py
+```
+
+The validator independently checks keys, row economics, script/session reconciliation, English categories, saved formula errors and package structure. The preview derives KPI totals from the workbook's saved values and exports the PNG and PDF. Recalculate and save in Excel before rebuilding previews after input changes. The static preview is a presentation of the calculations, not an Excel screenshot.
 
 ## Limits
 

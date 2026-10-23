@@ -32,3 +32,18 @@ This describes the verified public synthetic workbook. Session table is `Raw Dat
 | Cost Recovery Status | Script | Category | Scenario-specific acquisition-cost comparison |
 
 Missing is not zero. A never-opened script has zero observed sessions and undefined average contribution. Missing acquisition costs mean recovery is unknown. Multiple releases sharing an acquisition must use a documented allocation rather than charging the full cost twice.
+
+
+## Category vocabulary
+
+| Field | Value | Meaning in this fictional case |
+| --- | --- | --- |
+| Script Type | Emotional | Character and emotional storytelling |
+| Script Type | Deduction | Evidence-based mystery solving |
+| Script Type | Mechanics | Rules, roles and strategic interactions |
+| Script Type | Comedy | Lighthearted group entertainment |
+| Script Edition | Boxed | Standard boxed distribution |
+| Script Edition | City-limited | Modeled city-limited distribution |
+| Script Edition | Exclusive | Modeled exclusive distribution |
+
+The workbook is the fixed synthetic data fixture. This repository does not include the original synthetic-data generator. Reproduction starts from the supplied fictional rows; it does not recreate actual store records.
