@@ -18,7 +18,7 @@ The previous export showed #REF! values, a session count of 1, missing charts an
 | Input-change check | Price +$1 for six players increased revenue and contribution by $6 |
 | Standard-file reload | Passed with openpyxl; three charts and two Excel Tables present |
 | Structured references / custom pivot objects | Omitted in compatibility edition |
-| Desktop Excel open and chart rendering | Not yet confirmed |
+| Desktop Excel open and chart rendering | Owner confirmed correct display of the latest English workbook on October 23, 2026 |
 
 The public file includes only synthetic rows. None of the original stale pivot caches were copied. Matplotlib PNG/PDF use the same numerical results; they are not Excel screenshots. Snapshot helper membership and bounded ranges must be extended for new records.
 
@@ -33,6 +33,10 @@ The public file includes only synthetic rows. None of the original stale pivot c
 - Seven worksheets, two Excel Tables and three native charts remain. Changed dashboard, category summaries and source-table ranges were rendered and inspected.
 - Independent Python checks verify 416 unique sessions, 160 unique scripts, 136 opened scripts, row calculations and script/session totals.
 - Refreshed PNG/PDF use workbook-derived KPI totals. They are plotting-library previews, not Excel screenshots.
-- Mac Excel open/recalculation automation was attempted and returned AppleEvent timeout (-1712). Native application acceptance remains pending; no successful desktop test is claimed.
+- Mac Excel automation returned AppleEvent timeout (-1712). Subsequently, the owner confirmed that the latest English workbook displayed correctly in Excel. Opening and display acceptance is user-operated; independent native Excel recalculation and input-change tests were not completed.
 
 Run `python scripts/validate_project.py` to repeat the saved-file checks. These checks preserve the supplied synthetic fixture and do not establish actual commercial performance or independently verify its original generation process.
+
+## Owner acceptance and local cleanup — October 23, 2026
+
+The owner confirmed that the latest English workbook displayed correctly in Excel after reopening the current version. This supplements formula-engine recalculation, input-change tests and saved-file checks; it is not an independently automated native Excel test. Superseded synthetic workbooks in Downloads and the prior local synthetic-project backup were moved to the Mac Trash. The current public workbook and original private business files were retained.

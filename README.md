@@ -65,7 +65,7 @@ The submitted workbook contained stale pre-synthetic PivotTable caches and displ
 
 The 2026-10-23 English release translates categories throughout inputs, summaries and chart caches. All existing numeric cells match the previous release after formula recalculation. Increasing one six-player session price by $1 increases revenue and contribution by $6; restoring the input restores the baseline. The workbook retains seven sheets, two Excel Tables and three native charts. Monthly chart labels now display readable English months.
 
-Independent controls and saved formula-error scans pass. Mac Excel automation was attempted but timed out; native opening, recalculation and chart rendering remain unconfirmed. See [validation results](docs/validation.md) for the exact scope.
+Independent controls and saved formula-error scans pass. On October 23, 2026, the owner confirmed that the latest English workbook displayed correctly in desktop Excel. This is user-operated opening and display acceptance. Automated native Excel control timed out; no independent native Excel recalculation test is claimed. See [validation results](docs/validation.md) for the exact scope.
 
 ## Reproduce the checks and preview
 
