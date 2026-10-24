@@ -54,7 +54,7 @@ Script types: **Emotional, Deduction, Mechanics, Comedy**. Editions: **City-limi
 
 ## Updating the workbook
 
-Open in Excel with automatic calculation enabled. This edition uses bounded worksheet ranges rather than structured references and omits native PivotTables to reduce compatibility risks. Dashboard helper formulas recalculate. The top-20 list and scatter membership are snapshot selections; adding sessions to previously unopened scripts or new scripts requires updating those helper ranges. The performance scatter groups scripts sharing an identical (session count, contribution) pair into one bubble sized by script count, because 136 opened scripts collapse to only 16 unique coordinates. See [workbook usage](docs/workbook-handoff.md).
+Open in Excel with automatic calculation enabled. This edition uses bounded worksheet ranges rather than structured references and omits native PivotTables to reduce compatibility risks. Dashboard helper formulas recalculate. The top-20 list and scatter membership are snapshot selections; adding sessions to previously unopened scripts or new scripts requires updating those helper ranges. The workbook's native Excel scatter still plots one point per script, so scripts sharing an identical (session count, contribution) pair overlap there. Only the Python-generated preview (assets/dashboard.png and the Dashboard PDF, built by scripts/build_preview.py) groups such scripts into one bubble sized by script count, because 136 opened scripts collapse to only 16 unique coordinates. See [workbook usage](docs/workbook-handoff.md).
 
 ## What this case demonstrates
 
