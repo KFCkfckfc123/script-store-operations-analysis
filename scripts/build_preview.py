@@ -20,7 +20,17 @@ for x,t,v in zip([.08,.31,.54,.77],['Sessions','Estimated Revenue','Estimated Co
 a=fig.add_subplot(gs[0,0]);keys=sorted(monthly);vs=[monthly[k] for k in keys];a.plot(range(len(keys)),vs,color='#19546B',marker='o');a.set_xticks(range(len(keys)));a.set_xticklabels(keys,rotation=55,ha='right',fontsize=8);a.set_title('Monthly Sessions');a.set_ylim(0,36);a.yaxis.set_major_locator(MaxNLocator(integer=True));a.annotate('Partial month: 8',xy=(13,8),xytext=(8,12),arrowprops={'arrowstyle':'->'},fontsize=9)
 b=fig.add_subplot(gs[0,1]);b.bar(labels,nums,color=['#24758b','#19546B','#7895a6']);b.set_ylim(0,610);b.set_title('Contribution per Session by Edition (USD)')
 for i,(v,n) in enumerate(zip(nums,counts)):b.text(i,v+10,f'${v:.2f}\nn={n}',ha='center',fontsize=9)
-c=fig.add_subplot(gs[1,:]);opened=[r for r in s if r[17]>0];c.scatter([r[17] for r in opened],[r[23] for r in opened],s=35,color='#24758b',alpha=.65);c.axvline(j['threshold'],color='#B05A4A',ls='--');c.axhline(j['avgthreshold'],color='#B05A4A',ls='--');c.set_title('Script Performance — 136 Opened Scripts');c.set_xlabel('Observed Sessions');c.set_ylabel('Estimated Contribution / Session (USD)');c.text(.98,.96,f"Opened-script medians: {j['threshold']:g} sessions / ${j['avgthreshold']:g}",transform=c.transAxes,ha='right',fontsize=9)
+c=fig.add_subplot(gs[1,:]);opened=[r for r in s if r[17]>0]
+# Many scripts share an identical (session count, contribution) pair, so plotting
+# one dot per script hides overlaps: 136 opened scripts collapse to 16 unique
+# coordinates. Group by coordinate and encode the script count in bubble size,
+# so the chart shows all 136 scripts instead of ~16 visible dots.
+grouped=collections.Counter((r[17],round(r[23],2)) for r in opened)
+xs=[k[0] for k in grouped];ys=[k[1] for k in grouped];sizes=[35+45*n for n in grouped.values()]
+c.scatter(xs,ys,s=sizes,color='#24758b',alpha=.65)
+for (x,y),n in grouped.items():
+    if n>=8:c.text(x,y,f'{n}',ha='center',va='center',fontsize=8,color='white',weight='bold')
+c.axvline(j['threshold'],color='#B05A4A',ls='--');c.axhline(j['avgthreshold'],color='#B05A4A',ls='--');c.set_title('Script Performance — 136 Opened Scripts (bubble size = scripts at the same point)');c.set_xlabel('Observed Sessions');c.set_ylabel('Estimated Contribution / Session (USD)');c.text(.98,.96,f"Opened-script medians: {j['threshold']:g} sessions / ${j['avgthreshold']:g}",transform=c.transAxes,ha='right',fontsize=9)
 for ax in [a,b,c]:ax.spines[['top','right']].set_visible(False);ax.grid(axis='y',alpha=.15);ax.set_axisbelow(True)
 fig.text(.08,.075,'Full-month counts range from 29 to 32. Seven months tie at 32; August is not a unique peak.',fontsize=10)
 fig.text(.08,.045,'Scenario acquisition costs are modeled. Edition comparisons do not prove causal effects or justify purchases alone.',fontsize=10)

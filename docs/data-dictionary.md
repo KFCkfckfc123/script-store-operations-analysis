@@ -47,3 +47,7 @@ Missing is not zero. A never-opened script has zero observed sessions and undefi
 | Script Edition | Exclusive | Modeled exclusive distribution |
 
 The workbook is the fixed synthetic data fixture. This repository does not include the original synthetic-data generator. Reproduction starts from the supplied fictional rows; it does not recreate actual store records.
+
+## Plain-text export
+
+`data/raw_data.csv` (416 sessions) and `data/script_list.csv` (160 scripts) are generated from the workbook by `scripts/export_csv.py` and contain the same tables. They are provided for reviewers without Excel.

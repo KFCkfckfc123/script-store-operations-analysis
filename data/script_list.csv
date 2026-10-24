@@ -1,0 +1,161 @@
+Script ID,Script Name,Script Type,DM,Players,Price Per Player,Estimated Gross Revenue,Standard DM Wage,Script Edition,Estimated Contribution,Rating,Cost Low(RMB),Cost Base(RMB),Cost High(RMB),Cost Low(USD),Cost Base(USD),Cost High(USD),Observed Session Count,Cumulative Estimated Contribution,Surplus - Low Cost,Surplus - Base Cost,Surplus - High Cost,Cost Recovery Status,Average Contribution per Session,Open Session Count,Avg Contribution(Opened Only),Strategy Segment
+SYN-001,Synthetic Script 001,Emotional,2,6,99,594,180,Boxed,414,7,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-002,Synthetic Script 002,Deduction,1,6,75,450,118,City-limited,332,7.7,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-003,Synthetic Script 003,Emotional,3,6,118,708,270,Boxed,438,8.4,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-004,Synthetic Script 004,Comedy,3,7,129,903,237,Exclusive,666,7,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-005,Synthetic Script 005,Deduction,2,8,65,520,137,City-limited,383,7.7,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-006,Synthetic Script 006,Emotional,2,6,109,654,180,Boxed,474,8.4,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-007,Synthetic Script 007,Mechanics,1,6,129,774,203,City-limited,571,7,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-008,Synthetic Script 008,Deduction,1,6,119,714,187,Boxed,527,7.7,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-009,Synthetic Script 009,Comedy,3,7,95,665,175,Exclusive,490,8.4,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-010,Synthetic Script 010,Emotional,6,8,109,872,540,Boxed,332,7,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-011,Synthetic Script 011,Emotional,2,6,118,708,180,Boxed,528,7.7,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-012,Synthetic Script 012,Deduction,1,6,119,714,187,City-limited,527,8.4,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-013,Synthetic Script 013,Emotional,3,6,99,594,270,Boxed,324,7,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-014,Synthetic Script 014,Comedy,3,7,109,763,200,Exclusive,563,7.7,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-015,Synthetic Script 015,Deduction,2,8,95,760,200,City-limited,560,8.4,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-016,Synthetic Script 016,Emotional,2,6,138,828,180,Boxed,648,7,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-017,Synthetic Script 017,Mechanics,1,6,109,654,172,City-limited,482,7.7,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-018,Synthetic Script 018,Deduction,1,6,75,450,118,Boxed,332,8.4,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-019,Synthetic Script 019,Comedy,3,7,118,826,217,Exclusive,609,7,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-020,Synthetic Script 020,Emotional,6,8,138,1104,540,Boxed,564,7.7,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
+SYN-021,Synthetic Script 021,Emotional,2,6,99,594,180,Boxed,414,8.4,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-022,Synthetic Script 022,Deduction,1,6,75,450,118,City-limited,332,7,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-023,Synthetic Script 023,Emotional,3,6,118,708,270,Boxed,438,7.7,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-024,Synthetic Script 024,Comedy,3,7,129,903,237,Exclusive,666,8.4,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-025,Synthetic Script 025,Deduction,2,8,65,520,137,City-limited,383,7,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-026,Synthetic Script 026,Emotional,2,6,109,654,180,Boxed,474,7.7,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-027,Synthetic Script 027,Mechanics,1,6,129,774,203,City-limited,571,8.4,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-028,Synthetic Script 028,Deduction,1,6,119,714,187,Boxed,527,7,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-029,Synthetic Script 029,Comedy,3,7,95,665,175,Exclusive,490,7.7,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-030,Synthetic Script 030,Emotional,6,8,109,872,540,Boxed,332,8.4,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-031,Synthetic Script 031,Emotional,2,6,118,708,180,Boxed,528,7,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-032,Synthetic Script 032,Deduction,1,6,119,714,187,City-limited,527,7.7,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-033,Synthetic Script 033,Emotional,3,6,99,594,270,Boxed,324,8.4,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-034,Synthetic Script 034,Comedy,3,7,109,763,200,Exclusive,563,7,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-035,Synthetic Script 035,Deduction,2,8,95,760,200,City-limited,560,7.7,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-036,Synthetic Script 036,Emotional,2,6,138,828,180,Boxed,648,8.4,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-037,Synthetic Script 037,Mechanics,1,6,109,654,172,City-limited,482,7,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-038,Synthetic Script 038,Deduction,1,6,75,450,118,Boxed,332,7.7,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-039,Synthetic Script 039,Comedy,3,7,118,826,217,Exclusive,609,8.4,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-040,Synthetic Script 040,Emotional,6,8,138,1104,540,Boxed,564,7,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
+SYN-041,Synthetic Script 041,Emotional,2,6,99,594,180,Boxed,414,7.7,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-042,Synthetic Script 042,Deduction,1,6,75,450,118,City-limited,332,8.4,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-043,Synthetic Script 043,Emotional,3,6,118,708,270,Boxed,438,7,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-044,Synthetic Script 044,Comedy,3,7,129,903,237,Exclusive,666,7.7,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-045,Synthetic Script 045,Deduction,2,8,65,520,137,City-limited,383,8.4,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-046,Synthetic Script 046,Emotional,2,6,109,654,180,Boxed,474,7,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-047,Synthetic Script 047,Mechanics,1,6,129,774,203,City-limited,571,7.7,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-048,Synthetic Script 048,Deduction,1,6,119,714,187,Boxed,527,8.4,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-049,Synthetic Script 049,Comedy,3,7,95,665,175,Exclusive,490,7,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-050,Synthetic Script 050,Emotional,6,8,109,872,540,Boxed,332,7.7,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-051,Synthetic Script 051,Emotional,2,6,118,708,180,Boxed,528,8.4,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-052,Synthetic Script 052,Deduction,1,6,119,714,187,City-limited,527,7,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-053,Synthetic Script 053,Emotional,3,6,99,594,270,Boxed,324,7.7,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-054,Synthetic Script 054,Comedy,3,7,109,763,200,Exclusive,563,8.4,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-055,Synthetic Script 055,Deduction,2,8,95,760,200,City-limited,560,7,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-056,Synthetic Script 056,Emotional,2,6,138,828,180,Boxed,648,7.7,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-057,Synthetic Script 057,Mechanics,1,6,109,654,172,City-limited,482,8.4,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-058,Synthetic Script 058,Deduction,1,6,75,450,118,Boxed,332,7,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-059,Synthetic Script 059,Comedy,3,7,118,826,217,Exclusive,609,7.7,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-060,Synthetic Script 060,Emotional,6,8,138,1104,540,Boxed,564,8.4,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
+SYN-061,Synthetic Script 061,Emotional,2,6,99,594,180,Boxed,414,7,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-062,Synthetic Script 062,Deduction,1,6,75,450,118,City-limited,332,7.7,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-063,Synthetic Script 063,Emotional,3,6,118,708,270,Boxed,438,8.4,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-064,Synthetic Script 064,Comedy,3,7,129,903,237,Exclusive,666,7,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-065,Synthetic Script 065,Deduction,2,8,65,520,137,City-limited,383,7.7,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-066,Synthetic Script 066,Emotional,2,6,109,654,180,Boxed,474,8.4,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-067,Synthetic Script 067,Mechanics,1,6,129,774,203,City-limited,571,7,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-068,Synthetic Script 068,Deduction,1,6,119,714,187,Boxed,527,7.7,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-069,Synthetic Script 069,Comedy,3,7,95,665,175,Exclusive,490,8.4,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-070,Synthetic Script 070,Emotional,6,8,109,872,540,Boxed,332,7,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-071,Synthetic Script 071,Emotional,2,6,118,708,180,Boxed,528,7.7,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-072,Synthetic Script 072,Deduction,1,6,119,714,187,City-limited,527,8.4,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-073,Synthetic Script 073,Emotional,3,6,99,594,270,Boxed,324,7,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-074,Synthetic Script 074,Comedy,3,7,109,763,200,Exclusive,563,7.7,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-075,Synthetic Script 075,Deduction,2,8,95,760,200,City-limited,560,8.4,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-076,Synthetic Script 076,Emotional,2,6,138,828,180,Boxed,648,7,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-077,Synthetic Script 077,Mechanics,1,6,109,654,172,City-limited,482,7.7,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-078,Synthetic Script 078,Deduction,1,6,75,450,118,Boxed,332,8.4,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-079,Synthetic Script 079,Comedy,3,7,118,826,217,Exclusive,609,7,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-080,Synthetic Script 080,Emotional,6,8,138,1104,540,Boxed,564,7.7,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
+SYN-081,Synthetic Script 081,Emotional,2,6,99,594,180,Boxed,414,8.4,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-082,Synthetic Script 082,Deduction,1,6,75,450,118,City-limited,332,7,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-083,Synthetic Script 083,Emotional,3,6,118,708,270,Boxed,438,7.7,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-084,Synthetic Script 084,Comedy,3,7,129,903,237,Exclusive,666,8.4,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-085,Synthetic Script 085,Deduction,2,8,65,520,137,City-limited,383,7,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-086,Synthetic Script 086,Emotional,2,6,109,654,180,Boxed,474,7.7,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-087,Synthetic Script 087,Mechanics,1,6,129,774,203,City-limited,571,8.4,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-088,Synthetic Script 088,Deduction,1,6,119,714,187,Boxed,527,7,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-089,Synthetic Script 089,Comedy,3,7,95,665,175,Exclusive,490,7.7,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-090,Synthetic Script 090,Emotional,6,8,109,872,540,Boxed,332,8.4,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-091,Synthetic Script 091,Emotional,2,6,118,708,180,Boxed,528,7,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-092,Synthetic Script 092,Deduction,1,6,119,714,187,City-limited,527,7.7,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-093,Synthetic Script 093,Emotional,3,6,99,594,270,Boxed,324,8.4,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-094,Synthetic Script 094,Comedy,3,7,109,763,200,Exclusive,563,7,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-095,Synthetic Script 095,Deduction,2,8,95,760,200,City-limited,560,7.7,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-096,Synthetic Script 096,Emotional,2,6,138,828,180,Boxed,648,8.4,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-097,Synthetic Script 097,Mechanics,1,6,109,654,172,City-limited,482,7,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-098,Synthetic Script 098,Deduction,1,6,75,450,118,Boxed,332,7.7,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-099,Synthetic Script 099,Comedy,3,7,118,826,217,Exclusive,609,8.4,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-100,Synthetic Script 100,Emotional,6,8,138,1104,540,Boxed,564,7,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
+SYN-101,Synthetic Script 101,Emotional,2,6,99,594,180,Boxed,414,7.7,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-102,Synthetic Script 102,Deduction,1,6,75,450,118,City-limited,332,8.4,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-103,Synthetic Script 103,Emotional,3,6,118,708,270,Boxed,438,7,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-104,Synthetic Script 104,Comedy,3,7,129,903,237,Exclusive,666,7.7,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-105,Synthetic Script 105,Deduction,2,8,65,520,137,City-limited,383,8.4,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-106,Synthetic Script 106,Emotional,2,6,109,654,180,Boxed,474,7,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-107,Synthetic Script 107,Mechanics,1,6,129,774,203,City-limited,571,7.7,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-108,Synthetic Script 108,Deduction,1,6,119,714,187,Boxed,527,8.4,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-109,Synthetic Script 109,Comedy,3,7,95,665,175,Exclusive,490,7,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-110,Synthetic Script 110,Emotional,6,8,109,872,540,Boxed,332,7.7,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-111,Synthetic Script 111,Emotional,2,6,118,708,180,Boxed,528,8.4,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-112,Synthetic Script 112,Deduction,1,6,119,714,187,City-limited,527,7,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-113,Synthetic Script 113,Emotional,3,6,99,594,270,Boxed,324,7.7,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-114,Synthetic Script 114,Comedy,3,7,109,763,200,Exclusive,563,8.4,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-115,Synthetic Script 115,Deduction,2,8,95,760,200,City-limited,560,7,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-116,Synthetic Script 116,Emotional,2,6,138,828,180,Boxed,648,7.7,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-117,Synthetic Script 117,Mechanics,1,6,109,654,172,City-limited,482,8.4,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-118,Synthetic Script 118,Deduction,1,6,75,450,118,Boxed,332,7,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-119,Synthetic Script 119,Comedy,3,7,118,826,217,Exclusive,609,7.7,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-120,Synthetic Script 120,Emotional,6,8,138,1104,540,Boxed,564,8.4,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
+SYN-121,Synthetic Script 121,Emotional,2,6,99,594,180,Boxed,414,7,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-122,Synthetic Script 122,Deduction,1,6,75,450,118,City-limited,332,7.7,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-123,Synthetic Script 123,Emotional,3,6,118,708,270,Boxed,438,8.4,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-124,Synthetic Script 124,Comedy,3,7,129,903,237,Exclusive,666,7,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-125,Synthetic Script 125,Deduction,2,8,65,520,137,City-limited,383,7.7,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-126,Synthetic Script 126,Emotional,2,6,109,654,180,Boxed,474,8.4,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-127,Synthetic Script 127,Mechanics,1,6,129,774,203,City-limited,571,7,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-128,Synthetic Script 128,Deduction,1,6,119,714,187,Boxed,527,7.7,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-129,Synthetic Script 129,Comedy,3,7,95,665,175,Exclusive,490,8.4,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-130,Synthetic Script 130,Emotional,6,8,109,872,540,Boxed,332,7,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-131,Synthetic Script 131,Emotional,2,6,118,708,180,Boxed,528,7.7,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-132,Synthetic Script 132,Deduction,1,6,119,714,187,City-limited,527,8.4,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-133,Synthetic Script 133,Emotional,3,6,99,594,270,Boxed,324,7,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-134,Synthetic Script 134,Comedy,3,7,109,763,200,Exclusive,563,7.7,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-135,Synthetic Script 135,Deduction,2,8,95,760,200,City-limited,560,8.4,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-136,Synthetic Script 136,Emotional,2,6,138,828,180,Boxed,648,7,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-137,Synthetic Script 137,Mechanics,1,6,109,654,172,City-limited,482,7.7,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-138,Synthetic Script 138,Deduction,1,6,75,450,118,Boxed,332,8.4,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-139,Synthetic Script 139,Comedy,3,7,118,826,217,Exclusive,609,7,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-140,Synthetic Script 140,Emotional,6,8,138,1104,540,Boxed,564,7.7,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
+SYN-141,Synthetic Script 141,Emotional,2,6,99,594,180,Boxed,414,8.4,0,750,1000,0,104,139,0,0,0,-104,-139,Not Opened,0,0,,Not Opened
+SYN-142,Synthetic Script 142,Deduction,1,6,75,450,118,City-limited,332,7,1500,2000,2500,208,278,347,1,332,124,54,-15,Recovered - Low & Base,332,1,332,Low Frequency / Low Contribution
+SYN-143,Synthetic Script 143,Emotional,3,6,118,708,270,Boxed,438,7.7,0,750,1000,0,104,139,3,1314,1314,1210,1175,Recovered - All Scenarios,438,3,438,High Frequency / Low Contribution
+SYN-144,Synthetic Script 144,Comedy,3,7,129,903,237,Exclusive,666,8.4,2500,3000,3500,347,417,486,0,0,-347,-417,-486,Not Opened,0,0,,Not Opened
+SYN-145,Synthetic Script 145,Deduction,2,8,65,520,137,City-limited,383,7,1500,2000,2500,208,278,347,2,766,558,488,419,Recovered - All Scenarios,383,2,383,High Frequency / Low Contribution
+SYN-146,Synthetic Script 146,Emotional,2,6,109,654,180,Boxed,474,7.7,0,750,1000,0,104,139,4,1896,1896,1792,1757,Recovered - All Scenarios,474,4,474,High Frequency / Low Contribution
+SYN-147,Synthetic Script 147,Mechanics,1,6,129,774,203,City-limited,571,8.4,1500,2000,2500,208,278,347,0,0,-208,-278,-347,Not Opened,0,0,,Not Opened
+SYN-148,Synthetic Script 148,Deduction,1,6,119,714,187,Boxed,527,7,0,750,1000,0,104,139,2,1054,1054,950,915,Recovered - All Scenarios,527,2,527,High Frequency / High Contribution
+SYN-149,Synthetic Script 149,Comedy,3,7,95,665,175,Exclusive,490,7.7,2500,3000,3500,347,417,486,4,1960,1613,1543,1474,Recovered - All Scenarios,490,4,490,High Frequency / High Contribution
+SYN-150,Synthetic Script 150,Emotional,6,8,109,872,540,Boxed,332,8.4,0,750,1000,0,104,139,1,332,332,228,193,Recovered - All Scenarios,332,1,332,Low Frequency / Low Contribution
+SYN-151,Synthetic Script 151,Emotional,2,6,118,708,180,Boxed,528,7,0,750,1000,0,104,139,2,1056,1056,952,917,Recovered - All Scenarios,528,2,528,High Frequency / High Contribution
+SYN-152,Synthetic Script 152,Deduction,1,6,119,714,187,City-limited,527,7.7,1500,2000,2500,208,278,347,5,2635,2427,2357,2288,Recovered - All Scenarios,527,5,527,High Frequency / High Contribution
+SYN-153,Synthetic Script 153,Emotional,3,6,99,594,270,Boxed,324,8.4,0,750,1000,0,104,139,1,324,324,220,185,Recovered - All Scenarios,324,1,324,Low Frequency / Low Contribution
+SYN-154,Synthetic Script 154,Comedy,3,7,109,763,200,Exclusive,563,7,2500,3000,3500,347,417,486,2,1126,779,709,640,Recovered - All Scenarios,563,2,563,High Frequency / High Contribution
+SYN-155,Synthetic Script 155,Deduction,2,8,95,760,200,City-limited,560,7.7,1500,2000,2500,208,278,347,7,3920,3712,3642,3573,Recovered - All Scenarios,560,7,560,High Frequency / High Contribution
+SYN-156,Synthetic Script 156,Emotional,2,6,138,828,180,Boxed,648,8.4,0,750,1000,0,104,139,1,648,648,544,509,Recovered - All Scenarios,648,1,648,Low Frequency / High Contribution
+SYN-157,Synthetic Script 157,Mechanics,1,6,109,654,172,City-limited,482,7,1500,2000,2500,208,278,347,3,1446,1238,1168,1099,Recovered - All Scenarios,482,3,482,High Frequency / Low Contribution
+SYN-158,Synthetic Script 158,Deduction,1,6,75,450,118,Boxed,332,7.7,0,750,1000,0,104,139,10,3320,3320,3216,3181,Recovered - All Scenarios,332,10,332,High Frequency / Low Contribution
+SYN-159,Synthetic Script 159,Comedy,3,7,118,826,217,Exclusive,609,8.4,2500,3000,3500,347,417,486,1,609,262,192,123,Recovered - All Scenarios,609,1,609,Low Frequency / High Contribution
+SYN-160,Synthetic Script 160,Emotional,6,8,138,1104,540,Boxed,564,7,0,750,1000,0,104,139,3,1692,1692,1588,1553,Recovered - All Scenarios,564,3,564,High Frequency / High Contribution
