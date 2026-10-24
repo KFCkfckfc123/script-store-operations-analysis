@@ -2,7 +2,7 @@
 
 An Excel portfolio case study of synthetic scripted mystery game operations, estimated contribution, and acquisition-cost recovery.
 
-**All published records are fictional. This project does not demonstrate actual store growth or realized financial impact.**
+**All published records are fictional. This synthetic portfolio case is separate from my Game Master employment at Chill and does not use Chill's actual records. It does not demonstrate actual store growth or realized financial impact.**
 
 ![Synthetic operations dashboard](assets/dashboard.png)
 
@@ -57,7 +57,7 @@ Open in Excel with automatic calculation enabled. This edition uses bounded work
 
 ## What this case demonstrates
 
-Excel Tables, lookup and conditional aggregation formulas, explicit data grain, reconciliation, contribution modeling, acquisition-cost scenarios, and cautious interpretation of business metrics. SQL, causal attribution, statistically significant edition differences, and independently achieved commercial results are not demonstrated.
+Excel Tables, `INDEX`/`MATCH` lookups, `SUMIF`/`COUNTIF` and `AVERAGEIF` summaries, explicit data grain, reconciliation, contribution modeling, acquisition-cost scenarios, and native charts. Formula-based summaries replace PivotTables in this compatibility edition. SQL, causal attribution, statistically significant edition differences, and independently achieved commercial results are not demonstrated.
 
 ## Validation and corrections
 
